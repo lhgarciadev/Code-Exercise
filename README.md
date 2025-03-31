@@ -90,10 +90,12 @@ Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo l
 
 ## Ejecución del Código
 
-Puedes ejecutar el pipeline completo utilizando el punto de entrada principal:
+Puedes ejecutar cada etapa del pipeline usando el comando principal con el argumento correspondiente:
 
 ```bash
-poetry run itemclassifier
+poetry run itemclassifier ingestion
+poetry run itemclassifier train
+poetry run itemclassifier evaluation
 ```
 
 También puedes ejecutar notebooks de forma individual dentro de `notebooks/`:
