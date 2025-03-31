@@ -176,4 +176,4 @@ cython_debug/
 # Others
 notebooks/catboost_info/*
 notebooks/logs/*
-data/raw/MLA_100k_checked_v3.jsonlines
+data/MLA_100k_checked_v3.jsonlines
