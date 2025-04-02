@@ -83,11 +83,6 @@ Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo l
     poetry install
     ```
 
-4. Activa el entorno:
-    ```bash
-    poetry shell
-    ```
-
 ## Ejecución del Código
 
 Puedes ejecutar cada etapa del pipeline usando el comando principal con el argumento correspondiente:
